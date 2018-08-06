@@ -14,3 +14,13 @@ REST refers to REpresentational State Transfer protocol. It uses HTTP verbs for 
 4. It must have a uniform interface for any kind of information.
 5. It must follow a layered type of system in which the client only interacts with the point of contact.
 6. Code on demand is an optional constraint in RESTful architecture.
+
+# HTTP Request
+It is always a "pull protocol". The major componenents of a HTTP request are header and body (optional). The headers consists of the request line and request headers (optional). The request headers are in the form of a name-value pair.
+
+# HTTP Response
+The header consists of a status line - HTTP version, status code and reason phrase. 
+
+# Postman
+Postman is a great tool for prototyping APIs, and it also has some powerful testing features. It can be downloaded from: https://www.getpostman.com/
+
