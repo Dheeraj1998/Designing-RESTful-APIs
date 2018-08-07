@@ -1,6 +1,11 @@
 # Designing-RESTful-APIs
 Course content part of the udacity course on "**Designing RESTful APIs**".
 
+## Setting up
+The tutorial can be followed by installing the required dependencies from the file: ***requirements.txt***. This can be done by using the following code snippet:
+
+```pip3 install -r requirements.txt```
+
 ## Introduction
 Web APIs have allowed developers to gain more control over an application leading to much more customizations. An example of a company heavily dependent on APIs is Twilio. Web APIs usually work on the Application layer of the OSI model.
 
@@ -33,4 +38,7 @@ Postman is a great tool for prototyping APIs, and it also has some powerful test
 ![Geocode Example](images/geocode_example.png)
 
 2. API mashup (Foursquare + Geocode)
-![Geocode Example](images/api_mashup_example.png)
+![API Mashup Example](images/api_mashup_example.png)
+
+3. Different parameters for API endpoint <br>
+  <img src="images/endpoint_1.png" height = "170px" width="32%"> <img src="images/endpoint_2.png" height = "170px" width="32%"> <img src="images/endpoint_3.png" height = "170px" width="32%">
