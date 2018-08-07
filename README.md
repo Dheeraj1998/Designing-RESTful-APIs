@@ -24,6 +24,10 @@ The header consists of a status line - HTTP version, status code and reason phra
 ## Postman
 Postman is a great tool for prototyping APIs, and it also has some powerful testing features. It can be downloaded from [here](https://www.getpostman.com/).
 
+## Flask tips
+1. Flask always requires a return type to be specified in all the different app routes.
+2. Import all required libraries such as Jsonify or requests before using them.
+
 ## Examples
 1. Geocode API
 ![Geocode Example](images/geocode_example.png)
