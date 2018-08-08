@@ -29,9 +29,19 @@ The header consists of a status line - HTTP version, status code and reason phra
 ## Postman
 Postman is a great tool for prototyping APIs, and it also has some powerful testing features. It can be downloaded from [here](https://www.getpostman.com/).
 
-## Flask tips
+## API Mashups
+### Lesson 2 
+This mashup consists of a Python script which takes in a location and the type of search to return the best result to the user with the use of Gecoding and Foursquare API.
+
+### Lesson 3
+The functionalities include:
+1. POST endpoint at '/restaurants' which takes the location and meal type, the result is then stored in a local DB file. 
+2. GET endpoint at '/restaurants' returns all the stored locations from the local DB file.
+ 
+## API tips
 1. Flask always requires a return type to be specified in all the different app routes.
 2. Import all required libraries such as Jsonify or requests before using them.
+3. Primary key needs to be defined for any table in SQL alchemy.
 
 ## Examples
 1. Geocode API
