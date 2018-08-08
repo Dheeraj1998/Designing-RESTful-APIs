@@ -52,3 +52,6 @@ The functionalities include:
 
 3. Different parameters for API endpoint <br>
   <img src="images/endpoint_1.png" height = "170px" width="32%"> <img src="images/endpoint_2.png" height = "170px" width="32%"> <img src="images/endpoint_3.png" height = "170px" width="32%">
+  
+4. API mashup (Foursquare + Geocode + SQLAlchemy) <br>
+  <img src="images/mashup_1.png" height = "220px" width="48%"> <img src="images/mashup_2.png" height = "220px" width="48%">
