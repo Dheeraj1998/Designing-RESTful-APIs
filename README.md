@@ -42,6 +42,15 @@ The functionalities include:
 This lesson deals with the improving of security and access control for the API endpoints. The files have the following implemented features:
 1. The first file deals with the creating of user, viewing the details and providing the modification functionality to only logged-in users using Basic Auth.
 
+### Lesson 5
+This lesson covers some of the tips to write developer-friendly APIs. Some of the suggested tips include:
+1. The documentation should be easy to navigate and aesthetically pleasing.
+2. The API URL should be easy to understand and not cause any additional confusion.
+3. Some of the HTTP methods such as HEAD are used by search engines, therefore should only provide information.
+4. A good API should make use of status codes.
+5. Properly formatted error messages should be provided.
+6. Different versions of the API can help to transition between various updates in the API over time. 
+
 ## API tips
 1. Flask always requires a return type to be specified in all the different app routes.
 2. Import all required libraries such as Jsonify or requests before using them.
