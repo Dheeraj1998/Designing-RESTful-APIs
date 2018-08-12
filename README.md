@@ -38,6 +38,10 @@ The functionalities include:
 1. POST endpoint at '/restaurants' which takes the location and meal type, the result is then stored in a local DB file. 
 2. GET endpoint at '/restaurants' returns all the stored locations from the local DB file.
  
+### Lesson 4
+This lesson deals with the improving of security and access control for the API endpoints. The files have the following implemented features:
+1. The first file deals with the creating of user, viewing the details and providing the modification functionality to only logged-in users using Basic Auth.
+
 ## API tips
 1. Flask always requires a return type to be specified in all the different app routes.
 2. Import all required libraries such as Jsonify or requests before using them.
