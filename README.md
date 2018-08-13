@@ -42,6 +42,7 @@ The functionalities include:
 This lesson deals with the improving of security and access control for the API endpoints. The files have the following implemented features:
 1. The first file deals with the creating of user, viewing the details and providing the modification functionality to only logged-in users using Basic Auth.
 2. The second file handles the generation and verification of tokens using the 'itsdangerous' library. 
+3. The third file deals with the situation of a rate limiting exercise.
 
 ### Lesson 5
 This lesson covers some of the tips to write developer-friendly APIs. Some of the suggested tips include:
