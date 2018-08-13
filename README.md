@@ -41,6 +41,7 @@ The functionalities include:
 ### Lesson 4
 This lesson deals with the improving of security and access control for the API endpoints. The files have the following implemented features:
 1. The first file deals with the creating of user, viewing the details and providing the modification functionality to only logged-in users using Basic Auth.
+2. The second file handles the generation and verification of tokens using the 'itsdangerous' library. 
 
 ### Lesson 5
 This lesson covers some of the tips to write developer-friendly APIs. Some of the suggested tips include:
@@ -55,6 +56,8 @@ This lesson covers some of the tips to write developer-friendly APIs. Some of th
 1. Flask always requires a return type to be specified in all the different app routes.
 2. Import all required libraries such as Jsonify or requests before using them.
 3. Primary key needs to be defined for any table in SQL alchemy.
+4. 'g' is a container provided by Flask which allows to store information for the lifetime of a request.
+5. Static methods can be used when you don't want to access the parameters in an instance of a class.
 
 ## Examples
 1. Geocode API
