@@ -1,5 +1,5 @@
 # Designing-RESTful-APIs
-Course content part of the udacity course on "**[Designing RESTful APIs](https://in.udacity.com/course/designing-restful-apis--ud388)**".
+Exercises as part of the udacity course at "**[Designing RESTful APIs](https://in.udacity.com/course/designing-restful-apis--ud388)**".
 
 ## Setting up
 The tutorial can be followed by installing the required dependencies from the file: ***requirements.txt***. This can be done by using the following code snippet:
